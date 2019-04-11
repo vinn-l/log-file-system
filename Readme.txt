@@ -70,7 +70,7 @@ Running without a test input file (taking input from stdin)
 
 Notes:
 	1. Double indirect block is not implemented, thus each file can only have maximum 11 blocks of data(from inode) + 256 blocks of data(from single indirect block)
-	
+		-Double indirect block seems unnecessary for such a simple file system
 	2. Block 0 is the Superblock
 	3. Block 1 is the Free Block Vector
 	4. Block 2 is the Inode Block Vector
