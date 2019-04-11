@@ -1,0 +1,25 @@
+help
+InitDisk
+writeFile file1 This is file1
+writeFile file2 This is file2.
+writeFile file3 This is file3.
+writeFile file4 This is file4.
+writeFile file4 This is file4 but it should be taken!
+list
+makeDir dir1
+makeDir dir2
+openDir dir1
+writeFile file1indir1 This file is in dir1.
+exitDir
+readFile file1
+rmFile file1
+list
+openDir dir1
+list
+readFile file1indir1
+rmFile file1indir1
+list
+exitDir
+rmFile dir1
+list
+exit
