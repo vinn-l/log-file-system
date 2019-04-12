@@ -11,6 +11,8 @@ Introduction:
 	The executable "./io/file" takes in commands from stdin.
 	./app/ contains 2 text files called app1.txt and app2.txt, these text file serves as a test input file that is to be feeded into stdin.
 	app1.txt tests for simple commands, and app2.txt tests for a 10000 character input to show that single indirect block works.
+	The BASH script to run everything is "./runtest"
+		- it runs the 2 test files	
 
 Below shows 2 methods to test this Simple File System, one by feeding the included test input file "./app/app1.txt" or "./app/app2.txt" into stdin for "./io/file".
 The other by just running the executable "./io/file" and inputting commands through the GUI as stdin.
